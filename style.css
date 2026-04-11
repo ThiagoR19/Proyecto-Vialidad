@@ -109,3 +109,32 @@ header {
   text-align: center;
   margin-left: -100px;
 }
+
+/*señales*/
+.hero{
+  margin: 3rem;
+}
+.filtros__article-h2{
+  font-weight: 500;
+  margin-bottom: 1rem;
+
+}
+.filtros__article-div{
+  color: white;
+  font-size: 22px;
+}
+.filtros__article-div-p{
+  font-size: 16px;
+  background-color: red;
+  border-radius: 10px;
+  width: 200px;
+  padding: 2.5px;
+  font-weight: 500;
+  border: solid white 1px;
+  box-shadow: 3px 3px 10px rgb(82, 82, 82);
+  padding: 0.3rem 1rem;
+}
+.firt{
+  font-size: 25px;
+  font-weight: 600;
+}
