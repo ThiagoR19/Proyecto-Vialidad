@@ -68,41 +68,40 @@ header {
   #sign-stop {
     top: 12%;
   }
+
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #señales {
-  padding: 40px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
 }
 
-.señales__table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 10px;
+.señales__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 200px;
+  min-height: 250px;
+  margin: 0 10px;
 }
 
-.señales__table-tbody-tr-td {
-  padding: 15px;
-  width: 180px;
-  height: 180px;
-  transition: all 0.3s ease;
-  vertical-align: top;
-  cursor: pointer;
+.señales__div img {
+  width: 70%;
+  margin: 0 10px 10px;
+  align-self: center;
 }
 
-.señales__table-tbody-tr-td-img:hover {
-  transform: translateY(-5px);
-  transform: scale(1.1);
-}
-
-.señales__table-tbody-tr-td-img {
-  width: 150px;
-  height: 150px;
-  object-fit: contain;
-  margin-bottom: 10px;
-  transition: all 0.3s ease;
-}
-
-.señales__table-tbody-tr-td-p {
+.señales__div p {
   font-size: 20px;
   font-weight: 100;
   color: #000000;
