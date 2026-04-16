@@ -68,25 +68,36 @@ header {
   #sign-stop {
     top: 12%;
   }
+
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #señales {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-
+  justify-content: start;
 }
 
 .señales__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
   width: 200px;
-  min-height: 200px;
+  min-height: 250px;
   margin: 0 10px;
 }
 
 .señales__div img {
   width: 70%;
-  margin: 0 10px;
+  margin: 0 10px 10px;
   align-self: center;
 }
 
