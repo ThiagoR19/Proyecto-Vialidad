@@ -127,10 +127,28 @@ header {
   font-weight: 600;
 }
 
-/* tablet */
-@media screen and (max-width: 1024px) {}
+/*vista tablet */
+@media screen and (max-width: 1024px) {
+  #señales {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .header__h1 {
+    font-size: 4vw;
+    width: 100%;
+  }
 
-/* celular */
+  .header__p {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  #sign-stop {
+    top: 14%;
+    right: 3%;
+    height: 15vw;
+  }
+}
+
+/*vista celular */
 @media screen and (max-width: 600px) {
   #señales {
     grid-template-columns: repeat(2, 1fr);
