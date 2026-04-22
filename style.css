@@ -125,14 +125,6 @@ header {
 
 /* tablet */
 @media screen and (max-width: 1024px) {
-  #señales {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .header__h1 {
-    margin: 10px;
-    width: 100%;
-    font-size: 6.5vw;
-  }
 }
 
 /* celular */
