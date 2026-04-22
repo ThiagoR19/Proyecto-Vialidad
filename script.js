@@ -29,3 +29,9 @@ document.addEventListener("click", (e) => {
     dropdown.classList.remove("active");
   }
 });
+
+const btnTema = document.getElementById("button-mode");
+btnTema.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
+

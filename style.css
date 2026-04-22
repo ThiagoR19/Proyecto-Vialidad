@@ -290,3 +290,24 @@ header {
     border: 1px solid rgb(161, 161, 161);
   }
 }
+
+
+body.dark {
+  background-color: #2f2f2f;
+}
+
+body.dark p,
+body.dark h1,
+body.dark h2 {
+  color: white !important;
+}
+body.dark .text_tema {
+  color: white !important;
+}
+body.dark .filtros__article-div-p {
+  color: white !important;
+}
+body.dark #button-mode {
+  background-color: #1e1e1e;
+  color: white;
+}
