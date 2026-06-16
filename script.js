@@ -31,7 +31,14 @@ document.addEventListener("click", (e) => {
 });
 
 const btnTema = document.getElementById("button-mode");
+const iconoTema = document.getElementById("iconoTemas");
+
 btnTema.addEventListener("click", () => {
   document.body.classList.toggle("dark");
-});
 
+  if (iconoTema.classList.contains("fa-sun")) {
+    iconoTema.setAttribute("class", "fa-moon fa-solid");
+  } else {
+    iconoTema.setAttribute("class", "fa-sun fa-solid");
+  }
+});

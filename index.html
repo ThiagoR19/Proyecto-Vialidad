@@ -12,10 +12,11 @@
 
 <body>
 
-  <button id="button-mode"><i class="fa-solid fa-sun"></i></button>
-  <img id="sign-stop" src="./assets/sign-stop.png" alt="Imagen de alto">
+  <button id="button-mode"><i id="iconoTemas" class="fa-solid fa-sun"></i></button>
 
   <header>
+    <img id="sign-stop" src="./assets/sign-stop.png" alt="Imagen de alto">
+
     <h1 class="header__h1">Señales de Vialidad</h1>
     <p class="header__p">Explorá las señales de tránsito de forma simple. Filtrá por tipo y encontrá rápidamente la
       información que
@@ -27,7 +28,7 @@
       <h2 class="filtros__article-h2">Filtros de señales</h2>
       <div class="dropdown">
         <button class="dropdown-btn">Todas</button>
-        <div class="dropdown-content">
+        <div class="dropdown-content" id="filtrosslec">
           <p data-filter="Todas">Todas</p>
           <p data-filter="Prohibicion">Prohibicion</p>
           <p data-filter="Restriccion">Restriccion</p>
